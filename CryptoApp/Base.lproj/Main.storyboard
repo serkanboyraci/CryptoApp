@@ -20,25 +20,25 @@
                                 <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CryptoCell" rowHeight="113" id="IfR-JD-w3i">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CryptoCell" rowHeight="113" id="IfR-JD-w3i" customClass="CryptoTableViewCell" customModule="CryptoApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="113"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IfR-JD-w3i" id="bff-qg-L6H">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="113"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1s-1Y-ojm">
-                                                    <rect key="frame" x="36" y="23" width="317" height="40"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="317" id="bvQ-W0-6kD"/>
-                                                        <constraint firstAttribute="height" constant="40" id="pGD-m4-oSI"/>
-                                                    </constraints>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwx-aD-W64">
+                                                    <rect key="frame" x="36" y="68" width="317" height="40"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwx-aD-W64">
-                                                    <rect key="frame" x="36" y="68" width="317" height="40"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1s-1Y-ojm">
+                                                    <rect key="frame" x="36" y="20" width="317" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="317" id="bvQ-W0-6kD"/>
+                                                        <constraint firstAttribute="height" constant="40" id="pGD-m4-oSI"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -53,6 +53,10 @@
                                                 <constraint firstItem="I1s-1Y-ojm" firstAttribute="leading" secondItem="Mwx-aD-W64" secondAttribute="leading" id="zhp-nc-N16"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="currencyText" destination="I1s-1Y-ojm" id="pEv-q8-Zzz"/>
+                                            <outlet property="priceText" destination="Mwx-aD-W64" id="N3s-Hn-XJ3"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
