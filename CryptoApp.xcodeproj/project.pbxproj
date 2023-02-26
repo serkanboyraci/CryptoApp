@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603BDE9F29AA3C51009252BE /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603BDE9E29AA3C51009252BE /* CryptoTableViewCell.swift */; };
 		60A93340294A556F00A8AC71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A9333F294A556F00A8AC71 /* AppDelegate.swift */; };
 		60A93342294A556F00A8AC71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A93341294A556F00A8AC71 /* SceneDelegate.swift */; };
 		60A93344294A556F00A8AC71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A93343294A556F00A8AC71 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603BDE9E29AA3C51009252BE /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		60A9333C294A556F00A8AC71 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A9333F294A556F00A8AC71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60A93341294A556F00A8AC71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				60A93348294A557000A8AC71 /* Assets.xcassets */,
 				60A9334A294A557000A8AC71 /* LaunchScreen.storyboard */,
 				60A9334D294A557000A8AC71 /* Info.plist */,
+				603BDE9E29AA3C51009252BE /* CryptoTableViewCell.swift */,
 			);
 			path = CryptoApp;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603BDE9F29AA3C51009252BE /* CryptoTableViewCell.swift in Sources */,
 				60A93344294A556F00A8AC71 /* ViewController.swift in Sources */,
 				60A93340294A556F00A8AC71 /* AppDelegate.swift in Sources */,
 				60A93342294A556F00A8AC71 /* SceneDelegate.swift in Sources */,
