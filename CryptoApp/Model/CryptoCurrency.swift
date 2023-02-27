@@ -10,5 +10,6 @@ import Foundation
 struct CryptoElement: Decodable { // to take data from API and show
     // Encodable to send data to server
     // Codable to use together
-    var currency, price: String?
+    var currency: String?
+    var price: String?
 }
