@@ -19,7 +19,12 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         
       
-        
+        let url = URL(string: "https://raw.githubusercontent.com/atilsamancioglu/K21-JSONdataSet/master/crypto.json")!
+        Webservice().downloadCurrencies(url: url) { (cryptos) in
+            if let cryptos = cryptos {
+                
+            }
+        }
     }
     
 
