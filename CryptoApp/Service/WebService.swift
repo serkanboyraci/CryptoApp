@@ -17,7 +17,7 @@ class Webservice {
             } else if let data = data {
                 let cryptolist = try? JSONDecoder().decode([CryptoElement].self, from: data)
                 
-                print(cryptolist)
+                
                 
                 if let cryptolist = cryptolist {
                     completion(cryptolist)
